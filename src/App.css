@@ -1,0 +1,59 @@
+/* Style for the video background */
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1; /* To place the video behind the content */
+  object-fit: cover; /* Ensures the video covers the screen properly */
+}
+
+/* Center the content and apply a mirror box effect */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Mirror box styling */
+.mirror-box {
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent white box */
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* Glassy effect */
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Header styling */
+.mirror-box h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #007BFF; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 3D shadow */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

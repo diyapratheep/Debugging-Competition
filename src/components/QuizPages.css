@@ -1,0 +1,144 @@
+/* Common styles for all quiz pages */
+
+/* Main container for the quiz page with gradient background */
+.quiz-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 60vw;
+  background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* Soft gradient background */
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Updated box to contain the quiz content */
+.quiz-content-box {
+  
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); /* Stronger shadow effect */
+  width: 80%; /* 80% of the purple container's width */
+  height: 80%; /* 80% of the purple container's height */
+  max-width: 600px; /* Maximum width to prevent it from getting too large */
+  max-height: 600px; 
+  text-align: center;
+  transition: all 0.3s ease-in-out; 
+  overflow: auto;
+}
+.no-bullets {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
+}
+.paragraph-spacing {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+
+/* Heading styling */
+.quiz-content-box h2 {
+  font-size: 2.0rem;
+  color: #4a148c; /* Dark purple */
+  margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.quiz-content-box p {
+  font-size: 1.0rem;
+  color: #6a1b9a; /* Softer purple */
+  margin-bottom: 20px;
+}
+
+/* Styling the button container for spacing */
+
+  
+  /* Download Button Styling */
+  .download-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #28a745; /* Green color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    gap: 20px;
+  }
+  
+  .download-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .download-button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  @media (max-width: 1024px) {
+    .quiz-content-box {
+      padding: 40px;
+      width: 90%;
+      max-width: 500px; /* Slightly smaller box on tablets */
+    }
+  
+    .quiz-content-box h2 {
+      font-size: 2rem;
+    }
+  
+    .quiz-content-box p {
+      font-size: 1.1rem;
+    }
+  
+    .download-button, .next-button {
+      padding: 12px 25px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Adjustments for mobile devices */
+  @media (max-width: 768px) {
+    .quiz-content-box {
+      padding: 30px;
+      width: 100%;
+      max-width: 400px; /* Even smaller box on mobile */
+    }
+  
+    .quiz-content-box h2 {
+      font-size: 1.8rem;
+    }
+  
+    .quiz-content-box p {
+      font-size: 1rem;
+    }
+  
+    .download-button, .next-button {
+      padding: 10px 20px;
+      font-size: 12px;
+    }
+  }
+  
+  /* Adjustments for smaller mobile devices */
+  @media (max-width: 480px) {
+    .quiz-content-box {
+      padding: 20px;
+      width: 100%;
+      max-width: 350px; /* Smaller width for compact phones */
+    }
+  
+    .quiz-content-box h2 {
+      font-size: 1.6rem;
+    }
+  
+    .quiz-content-box p {
+      font-size: 0.9rem;
+    }
+  
+    .download-button, .next-button {
+      padding: 8px 15px;
+      font-size: 10px;
+    }
+  }
+  
