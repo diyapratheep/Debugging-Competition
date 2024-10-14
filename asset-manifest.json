@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Debugging-Competition/static/css/main.13a00026.css",
+    "main.js": "/Debugging-Competition/static/js/main.efda224c.js",
+    "index.html": "/Debugging-Competition/index.html",
+    "main.13a00026.css.map": "/Debugging-Competition/static/css/main.13a00026.css.map",
+    "main.efda224c.js.map": "/Debugging-Competition/static/js/main.efda224c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13a00026.css",
+    "static/js/main.efda224c.js"
+  ]
+}
