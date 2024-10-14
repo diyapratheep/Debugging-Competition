@@ -18,3 +18,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
   ```bash
    git clone https://github.com/diyapratheep/Debugging-Competition.git
+
+```
+or use the website to see the competition round. 
+[](https://diyapratheep.github.io/Debugging-Competition/)
