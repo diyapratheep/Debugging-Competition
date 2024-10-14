@@ -79,9 +79,10 @@ function App() {
   return (
     <div className="App">
       <video autoPlay muted loop id="bgVideo">
-        <source src="/Debugging-Competition/bgvideo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+  <source src={`${process.env.PUBLIC_URL}/bgvideo.mp4`} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 
       {renderPage()} {/* Render the appropriate page based on currentPage */}
     </div>
