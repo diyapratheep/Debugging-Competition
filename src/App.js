@@ -78,7 +78,6 @@ function App() {
 
   return (
     <div className="App">
-      
   <img src={`${process.env.PUBLIC_URL}/bgvideo.webp`} alt="Background animation" id="bgImage" />
 
 
