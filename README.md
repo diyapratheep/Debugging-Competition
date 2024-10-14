@@ -21,4 +21,4 @@ To run this project locally, follow these steps:
 
 ```
 or use the website to see the competition round. 
-[](https://diyapratheep.github.io/Debugging-Competition/)
+[here](https://diyapratheep.github.io/Debugging-Competition/)
