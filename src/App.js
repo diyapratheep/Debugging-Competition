@@ -79,7 +79,7 @@ function App() {
   return (
     <div className="App">
       <video autoPlay muted loop id="bgVideo">
-        <source src="/bgvideo.mp4" type="video/mp4" />
+        <source src="/Debugging-Competition/bgvideo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
