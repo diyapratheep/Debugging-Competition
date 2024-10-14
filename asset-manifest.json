@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Debugging-Competition/static/css/main.2b67614c.css",
-    "main.js": "/Debugging-Competition/static/js/main.2bde354e.js",
+    "main.css": "/Debugging-Competition/static/css/main.9b8b001e.css",
+    "main.js": "/Debugging-Competition/static/js/main.620412bf.js",
     "index.html": "/Debugging-Competition/index.html",
-    "main.2b67614c.css.map": "/Debugging-Competition/static/css/main.2b67614c.css.map",
-    "main.2bde354e.js.map": "/Debugging-Competition/static/js/main.2bde354e.js.map"
+    "main.9b8b001e.css.map": "/Debugging-Competition/static/css/main.9b8b001e.css.map",
+    "main.620412bf.js.map": "/Debugging-Competition/static/js/main.620412bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b67614c.css",
-    "static/js/main.2bde354e.js"
+    "static/css/main.9b8b001e.css",
+    "static/js/main.620412bf.js"
   ]
 }
