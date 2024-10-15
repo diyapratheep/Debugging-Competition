@@ -28,9 +28,10 @@
   overflow: auto;
 }
 .no-bullets {
-  list-style-type: none; /* Removes bullet points */
-  padding: 0; /* Removes padding */
-  margin: 0; /* Removes margin */
+  line-height: 1.6;
+  padding: 10;
+  margin: 10; 
+  text-align: left;
 }
 .paragraph-spacing {
   margin-bottom: 20px; /* Adjust the value as needed */
@@ -47,7 +48,7 @@
 /* Paragraph styling */
 .quiz-content-box p {
   font-size: 1.0rem;
-  color: #6a1b9a; /* Softer purple */
+  color: #000000; /* Softer purple */
   margin-bottom: 20px;
 }
 

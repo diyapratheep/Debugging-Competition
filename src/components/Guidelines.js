@@ -6,9 +6,9 @@ const GuidelinesPage = ({onNext}) => {
     <div className="quiz-page-container">
       <div className="quiz-content-box">
         <h2>Guidelines for the Competition</h2>
-        <p>
+        <h4>
            Please read the following guidelines before starting:
-        </p>
+        </h4>
         <ul class='no-bullets'>
           <li>Read the question carefully; misunderstandings lead to debugging detours!</li>
           <li>Download the provided file and paste it into your online IDE.</li>
@@ -18,10 +18,10 @@ const GuidelinesPage = ({onNext}) => {
           <li>The first person to reach the finish line is the winner; speed matters, but precision is key!</li>
           <li>Any use of online resources or help, other than you teammate's, will lead to direct elimination.</li>
         </ul>
-        <p>
-          Good luck and have fun!
+        <h3>
+          
           All Teh Bset! 😉
-        </p>
+        </h3>
         <button onClick={onNext} className="next-button">Ah thudangiko</button>
       </div>
     </div>
