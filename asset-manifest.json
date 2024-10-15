@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Debugging-Competition/static/css/main.b9ba2020.css",
-    "main.js": "/Debugging-Competition/static/js/main.2203a696.js",
+    "main.css": "/Debugging-Competition/static/css/main.2fab1de4.css",
+    "main.js": "/Debugging-Competition/static/js/main.23fb196a.js",
     "index.html": "/Debugging-Competition/index.html",
-    "main.b9ba2020.css.map": "/Debugging-Competition/static/css/main.b9ba2020.css.map",
-    "main.2203a696.js.map": "/Debugging-Competition/static/js/main.2203a696.js.map"
+    "main.2fab1de4.css.map": "/Debugging-Competition/static/css/main.2fab1de4.css.map",
+    "main.23fb196a.js.map": "/Debugging-Competition/static/js/main.23fb196a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9ba2020.css",
-    "static/js/main.2203a696.js"
+    "static/css/main.2fab1de4.css",
+    "static/js/main.23fb196a.js"
   ]
 }
