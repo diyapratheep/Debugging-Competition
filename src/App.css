@@ -1,5 +1,15 @@
+/* Ensures the background image covers the entire viewport */
+.background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1; /* Make sure it stays behind the content */
+}
 /* Style for the video background */
-#bgImage {
+#bgVideo {
   position: absolute;
   top: 0;
   left: 0;
@@ -32,7 +42,7 @@
 /* Header styling */
 .mirror-box h1 {
   font-size: 2.5rem;
-  color: rgb(238, 67, 173);
+  color: rgb(226, 244, 127);
   margin-bottom: 20px;
   text-shadow: 
   -1px -1px 0 #000,  

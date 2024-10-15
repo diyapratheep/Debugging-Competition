@@ -23,7 +23,7 @@ const HomePage = ({ onNext }) => {
   return (
     <div className="mirror-box">
       <h1>Welcome to Runtime Error</h1>
-      <p>UNrevealing Bugs, one at a time!</p>
+      <h3>Unrevealing Bugs, one at a time!</h3>
       <button onClick={onNext}>Next</button>
     </div>
   );
@@ -75,17 +75,20 @@ function App() {
         return <HomePage onNext={() => setCurrentPage(0)} />;
     }
   };
-
   return (
     <div className="App">
-  <img src={`${process.env.PUBLIC_URL}/bgvideo.webp`} alt="Background animation" id="bgImage" />
-
-
-
-
+      <div className="background-container">
+        <video autoPlay muted loop id="bgVideo">
+          <source src={`${process.env.PUBLIC_URL}/bgvideo.mp4`} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+  
       {renderPage()} {/* Render the appropriate page based on currentPage */}
     </div>
   );
+  
+
 }
 
 export default App;
